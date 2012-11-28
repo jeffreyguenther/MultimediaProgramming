@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "MPS"
-AuthUserFile "/home7/patchste/.htpasswds/public_html/multimediaprogramming/source/passwd"
-require valid-user
