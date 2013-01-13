@@ -167,13 +167,19 @@
                             Debugging stands for removing errors from your code. Bugs in your code come in two varieties:
                         </p>
                         <ul>
-                            <li>A compile time error (the program won't run)</li>
+                            <li>A compile time error (Processing Compiles and finds an error)</li>
                             <ul>
                                 <li>Usually caused by a syntax error</li>
-                                <li>You mistyped something</li>
-                                <li>You missed a bracket</li>
+                            	<ul>
+                                  <li>You mistyped something</li>
+                                  <li>You missed a bracket, semicolon...</li>
+                                  <li>You used a variable of wrong type</li>
+                                  <li>Variable name doesn't exist</li>
+                                  <li>Method call doesn't exist</li>
+                            	</ul>
+                                <li>Processing gives an instructive error message in the dark red message area</li>
                             </ul>
-                            <li>A run time error (the program crashes)</li>
+                            <li>A run time error (Processing comiples, but the program crashes)</li>
                             <ul>
                                 <li>Usually accessing a variable that has not been initialized</li>
                                 <li>Trying to access an array position greater than the size of the array</li>
@@ -181,15 +187,15 @@
                             </ul>
                         </ul>
                         <p>
-                            Bugs are called bugs because the first computers used vacuum tubes and when something went wrong, there usually was
-                            a bug in one of the tubes.
+                            "Bug" as a term for <it>error</it> or <it>fault</it> dates back at least to the 1870's. 
+				Edison used the term "bug" in one of his letters.
                         </p>
                         <p>
-                            Always print out the value of variables in your program when things are not behaving as you would expect. This is
-                            incredibly useful for finding the cause of runtime errors.
+                            <b>Always print out the value of variables in your program</b> when things are not behaving as you expect. 
+			This is incredibly useful for finding the cause of runtime errors.
                         </p>
                         <p>
-                            Tracing code is a valuable skill. To practice follow some code through it's execution and watch the variables by printing
+                            Tracing code is a valuable skill. To practice follow some code through its execution and watch the variables by printing
                             out their values.
                         </p>
                         <p>
